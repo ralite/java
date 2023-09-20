@@ -1,0 +1,143 @@
+2023-09-07 08:58:33.843  INFO 19324 --- [restartedMain] fr.hb.ewan.plages.PlagesApplication      : Starting PlagesApplication using Java 17.0.7 on HBPC-HWMBD15-004 with PID 19324 (C:\Users\HB\eclipse-workspace\plages20230811\target\classes started by HB in C:\Users\HB\eclipse-workspace\plages20230811)
+2023-09-07 08:58:33.855  INFO 19324 --- [restartedMain] fr.hb.ewan.plages.PlagesApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-09-07 08:58:33.963  INFO 19324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-07 08:58:33.963  INFO 19324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-07 08:58:36.064  INFO 19324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-07 08:58:36.259  INFO 19324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 177 ms. Found 9 JPA repository interfaces.
+2023-09-07 08:58:38.219  INFO 19324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 08:58:38.240  INFO 19324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 08:58:38.241  INFO 19324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-07 08:58:38.866  INFO 19324 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-07 08:58:38.891  INFO 19324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 08:58:38.891  INFO 19324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4926 ms
+2023-09-07 08:58:39.405  INFO 19324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-07 08:58:39.817  INFO 19324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-07 08:58:39.841  INFO 19324 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-07 08:58:40.335  INFO 19324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-07 08:58:40.462  INFO 19324 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-07 08:58:40.815  INFO 19324 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-07 08:58:41.078  INFO 19324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-07 08:58:42.676  INFO 19324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-07 08:58:42.693  INFO 19324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 08:58:44.887  INFO 19324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57f2d796, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@785fc5b0, org.springframework.security.web.context.SecurityContextPersistenceFilter@430437c0, org.springframework.security.web.header.HeaderWriterFilter@37cb1f8d, org.springframework.security.web.authentication.logout.LogoutFilter@2ac6cfa4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@21bbb0fc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1f758e8a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@570599c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68ba826c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3edbefef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fdfa0df, org.springframework.security.web.session.SessionManagementFilter@43dbbc72, org.springframework.security.web.access.ExceptionTranslationFilter@7826b8a8, org.springframework.security.web.access.intercept.AuthorizationFilter@7017728a]
+2023-09-07 08:58:45.214  WARN 19324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-07 08:58:46.144  INFO 19324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-07 08:58:49.270  INFO 19324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 08:58:49.291  INFO 19324 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-07 08:58:49.469  INFO 19324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 08:58:49.512  INFO 19324 --- [restartedMain] fr.hb.ewan.plages.PlagesApplication      : Started PlagesApplication in 16.416 seconds (JVM running for 17.604)
+2023-09-07 08:58:50.331  INFO 19324 --- [restartedMain] f.h.e.p.i.AjoutDonneesInitiales          : Ajout de 20 clients
+2023-09-07 08:58:52.722  INFO 19324 --- [restartedMain] f.h.e.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:20
+2023-09-07 09:02:09.944  INFO 19324 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 80 class path changes (0 additions, 80 deletions, 0 modifications)
+2023-09-07 09:02:10.277  INFO 19324 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-09-07 09:02:10.363  INFO 19324 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 09:02:10.591  WARN 19324 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de données est déjà fermée (pour désactiver la fermeture automatique à l'arrêt de la VM, ajoutez "; DB_CLOSE_ON_EXIT = FALSE" à l'URL db)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2023-09-07 09:02:10.594  INFO 19324 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-07 09:02:10.605  INFO 19324 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-07 09:02:27.574  INFO 19324 --- [restartedMain] fr.hb.ewan.plages.PlagesApplication      : Starting PlagesApplication using Java 17.0.7 on HBPC-HWMBD15-004 with PID 19324 (C:\Users\HB\eclipse-workspace\plages20230811\target\classes started by HB in C:\Users\HB\eclipse-workspace\plages20230811)
+2023-09-07 09:02:27.575  INFO 19324 --- [restartedMain] fr.hb.ewan.plages.PlagesApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-09-07 09:02:28.378  INFO 19324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-07 09:02:28.490  INFO 19324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 9 JPA repository interfaces.
+2023-09-07 09:02:28.727  INFO 19324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-07 09:02:28.728  INFO 19324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-07 09:02:28.729  INFO 19324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-09-07 09:02:28.990  INFO 19324 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-09-07 09:02:28.997  INFO 19324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-07 09:02:28.997  INFO 19324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1417 ms
+2023-09-07 09:02:29.048  INFO 19324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-09-07 09:02:29.052  INFO 19324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-09-07 09:02:29.054  INFO 19324 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:plage'
+2023-09-07 09:02:29.128  INFO 19324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-07 09:02:29.139  INFO 19324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-07 09:02:29.363  INFO 19324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-07 09:02:29.364  INFO 19324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 09:02:29.903  INFO 19324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48cef78c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c7c7ea1, org.springframework.security.web.context.SecurityContextPersistenceFilter@7dfe7ba4, org.springframework.security.web.header.HeaderWriterFilter@66375eaf, org.springframework.security.web.authentication.logout.LogoutFilter@5d0b9e27, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2cb316b2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@9d73107, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2778111, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58005567, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41eaaee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6637cf0e, org.springframework.security.web.session.SessionManagementFilter@46f977b5, org.springframework.security.web.access.ExceptionTranslationFilter@7f0b4a06, org.springframework.security.web.access.intercept.AuthorizationFilter@49b5b23b]
+2023-09-07 09:02:29.949  WARN 19324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-07 09:02:30.120  INFO 19324 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-07 09:02:31.302  INFO 19324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-07 09:02:31.309  INFO 19324 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-07 09:02:31.334  INFO 19324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-07 09:02:31.344  INFO 19324 --- [restartedMain] fr.hb.ewan.plages.PlagesApplication      : Started PlagesApplication in 3.818 seconds (JVM running for 239.436)
+2023-09-07 09:02:31.619  INFO 19324 --- [restartedMain] f.h.e.p.i.AjoutDonneesInitiales          : Ajout de 20 clients
+2023-09-07 09:02:33.434  INFO 19324 --- [restartedMain] f.h.e.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:20
+2023-09-07 09:02:33.923  INFO 19324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   BeansEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.web.exposure' property (OnAvailableEndpointCondition)
+
+   BeansEndpointAutoConfiguration#beansEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.beans.BeansEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ErrorMvcAutoConfiguration#basicErrorController:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) found beans of type 'org.springframework.boot.web.servlet.error.ErrorController' erreurController (OnBeanCondition)
+
+   ManagementWebSecurityAutoConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' filterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+      Matched:
+         - found 'session' scope (OnWebApplicationCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement:
+      Did not match:
+         - @ConditionalOnMissingBean (types: javax.servlet.MultipartConfigElement,org.springframework.web.multipart.commons.CommonsMultipartResolver; SearchStrategy: all) found beans of type 'javax.servlet.MultipartConfigElement' multipartConfigElement (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' utilisateurServiceImpl (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-09-07 09:04:28.924  INFO 2688 --- [main] f.h.e.p.c.rest.PaysControllerRestTest    : Starting PaysControllerRestTest using Java 17.0.7 on HBPC-HWMBD15-004 with PID 2688 (started by HB in C:\Users\HB\eclipse-workspace\plages20230811)
+2023-09-07 09:04:28.927  INFO 2688 --- [main] f.h.e.p.c.rest.PaysControllerRestTest    : No active profile set, falling back to 1 default profile: "default"
+2023-09-07 09:04:31.176  INFO 2688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-07 09:04:31.432  INFO 2688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 238 ms. Found 9 JPA repository interfaces.
+2023-09-07 09:04:32.995  INFO 2688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-07 09:04:33.157  INFO 2688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-09-07 09:04:33.527  INFO 2688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-07 09:04:33.825  INFO 2688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-07 09:04:34.169  INFO 2688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-07 09:04:34.200  INFO 2688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-07 09:04:35.893  INFO 2688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-07 09:04:35.912  INFO 2688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 09:04:38.526  INFO 2688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d50f682, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3445341, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a1540be, org.springframework.security.web.header.HeaderWriterFilter@62d5617, org.springframework.security.web.authentication.logout.LogoutFilter@ee7a538, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@51158fb1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79e33802, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@14cc1f5c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@106c73ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a000fff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3100b5cf, org.springframework.security.web.session.SessionManagementFilter@6d97a357, org.springframework.security.web.access.ExceptionTranslationFilter@321302bc, org.springframework.security.web.access.intercept.AuthorizationFilter@69860811]
+2023-09-07 09:04:39.240  WARN 2688 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-07 09:04:41.103  INFO 2688 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-09-07 09:04:45.917  INFO 2688 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-07 09:04:45.917  INFO 2688 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-07 09:04:45.935  INFO 2688 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path ''
+2023-09-07 09:04:46.009  INFO 2688 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 91 ms
+2023-09-07 09:04:46.109  INFO 2688 --- [main] f.h.e.p.c.rest.PaysControllerRestTest    : Started PaysControllerRestTest in 17.809 seconds (JVM running for 20.14)
+2023-09-07 09:04:47.100  INFO 2688 --- [main] f.h.e.p.i.AjoutDonneesInitiales          : Ajout de 20 clients
+2023-09-07 09:04:49.277  INFO 2688 --- [main] f.h.e.p.i.AjoutDonneesInitiales          : nb de clients ajoutés:20
+2023-09-07 09:04:51.290  INFO 2688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 09:04:51.299  INFO 2688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-07 09:04:51.306  INFO 2688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

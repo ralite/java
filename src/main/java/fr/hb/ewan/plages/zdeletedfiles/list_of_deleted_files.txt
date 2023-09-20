@@ -1,0 +1,2 @@
+src/main/webapp/WEB-INF/index.jsp -> index_jsp.txt 
+src/main/java/fr.hb.ewan.plage/filter/CheckSessionFilter.java -> checkSessionFilter.txt

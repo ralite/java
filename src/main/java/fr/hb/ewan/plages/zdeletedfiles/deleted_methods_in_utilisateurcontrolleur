@@ -1,0 +1,16 @@
+@PostMapping("/connexion")
+	public ModelAndView postConnexion(@RequestParam("EMAIL") String email, @RequestParam("MOT_DE_PASSE") String motDePasse) {
+		System.out.println(new Date() + " dans postConnexion()");
+		Utilisateur utilisateur = utilisateurService.recupererUtilisateur(email, motDePasse);
+		if (utilisateur==null) {
+			ModelAndView mav = new ModelAndView("redirect:index");
+			mav.addObject("notification", "Mot de passe et/ou email incorrect");
+			return mav;
+		}
+		else {
+			// On ajoute en session HTTP l'objet utilisateur
+			httpSession.setAttribute("utilisateur", utilisateur);
+			ModelAndView mav = new ModelAndView("redirect:clients");
+			return mav;
+		}
+	}

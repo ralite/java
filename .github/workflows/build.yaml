@@ -1,0 +1,15 @@
+name: Maven Build on Commit
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: maven:3.8.4-openjdk-17-slim
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: mvn uild
+      run: mvn package -DskipTests

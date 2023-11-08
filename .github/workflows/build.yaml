@@ -62,6 +62,5 @@ jobs:
           push: true
           tags: raloute/java:${{ github.sha }}
           build-args: JAR_FILE=target/plages-0.0.1-SNAPSHOT.jar
-        env:
-          DOCKER_HUB_USERNAME: raloute
-          DOCKER_HUB_ACCESS_TOKEN: dckr_pat_K2uHJ3bsbxQnaMubqX9neh6qBRk
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}

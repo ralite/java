@@ -1,0 +1,12 @@
+FROM maven:3.8.4-openjdk-17-slim
+
+COPY ../. /app:
+
+RUN mvn clean package -DskipTests
+
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","target/plages-0.0.1-SNAPSHOT.jar"]
+
+
+

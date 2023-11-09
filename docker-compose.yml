@@ -1,0 +1,7 @@
+services:
+  java:
+    build:
+      context: .
+      dockerfile: Dockerfile-test
+    ports:
+      - "8081:8080"
